@@ -1,20 +1,20 @@
 #instructions:
 '''
 Hi! In the following you can find all you can do through this program:
-        \t portfolio = Portfolio()          # Creates a new portfolio
-        \t portfolio.history()              # Prints a list of all transactions ordered by time
-        \t print(portfolio)                 # Prints all assets in portfolio classified by asset types
-        \t portfolio.addCash(10.52)         # Adds $10.52 cash to the portfolio
-        \t portfolio.withdrawCash(50.20)    # Removes $50.20 cash from the portfolio
-        \t s1 = Stock(20, "HFH")            # Creates Stock s1 with price $20/share and symbol "HFH"
-        \t mf1 = MutualFund("BRT")          # Creates MutualFund mf1 with symbol "BRT"
-        \t b1 = Bond(1.45, "BBB")           # Creates Bond b1 with price $1.45$/share and symbol "BBB"
-        \t portfolio.buy(5.6, s1)           # Buys 5 shares of "HFH" because stocks can be bought just in whole units
-        \t portfolio.sell(2.3, s1)          # Sells 2 shares of "HFH" because stocks can be sold just in whole units
-        \t portfolio.buy(5.6, mf1)          # Buys 5.6 shares of "BRT"
-        \t portfolio.sell(2.3, mf1)         # Sells 2.3 shares of "BRT"
-        \t portfolio.buy(5.6, b1)           # Buys 5 shares of "BBB" because bonds can be bought just in whole units
-        \t portfolio.sell(2.3, b1)          # Sells 2 shares of "BBB" because bonds can be sold just in whole units
+        portfolio = Portfolio()          # Creates a new portfolio
+        portfolio.history()              # Prints a list of all transactions ordered by time
+        print(portfolio)                 # Prints all assets in portfolio classified by asset types
+        portfolio.addCash(10.52)         # Adds $10.52 cash to the portfolio
+        portfolio.withdrawCash(50.20)    # Removes $50.20 cash from the portfolio
+        s1 = Stock(20, "HFH")            # Creates Stock s1 with price $20/share and symbol "HFH"
+        mf1 = MutualFund("BRT")          # Creates MutualFund mf1 with symbol "BRT"
+        b1 = Bond(1.45, "BBB")           # Creates Bond b1 with price $1.45$/share and symbol "BBB"
+        portfolio.buy(5.6, s1)           # Buys 5 shares of "HFH" because stocks can be bought just in whole units
+        portfolio.sell(2.3, s1)          # Sells 2 shares of "HFH" because stocks can be sold just in whole units
+        portfolio.buy(5.6, mf1)          # Buys 5.6 shares of "BRT"
+        portfolio.sell(2.3, mf1)         # Sells 2.3 shares of "BRT"
+        portfolio.buy(5.6, b1)           # Buys 5 shares of "BBB" because bonds can be bought just in whole units
+        portfolio.sell(2.3, b1)          # Sells 2 shares of "BBB" because bonds can be sold just in whole units
 
 '''
 
