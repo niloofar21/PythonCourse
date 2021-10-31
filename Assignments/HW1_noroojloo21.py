@@ -1,5 +1,5 @@
-# Printing the instructions of the program when the user runs it.
-print('''
+#instructions:
+'''
 Hi! In the following you can find all you can do through this program:
         \t portfolio = Portfolio()          # Creates a new portfolio
         \t portfolio.history()              # Prints a list of all transactions ordered by time
@@ -16,7 +16,7 @@ Hi! In the following you can find all you can do through this program:
         \t portfolio.buy(5.6, b1)           # Buys 5 shares of "BBB" because bonds can be bought just in whole units
         \t portfolio.sell(2.3, b1)          # Sells 2 shares of "BBB" because bonds can be sold just in whole units
 
-''')
+'''
 
 #-------------------------------------------------------------------------------
 
